@@ -3,6 +3,9 @@
 **Panel for Nette 2.0 which shows list of all available services**
 
 ##Installation:
-Add the following line to bootstrap.php
+Insert the following code into config.neon
 
-	\Panel\ServicePanel::register($container);
+	nette:
+		debugger:
+			bar:
+				- Flame\Diagnostics\ServicePanel\ServicePanel
