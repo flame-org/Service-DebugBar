@@ -6,7 +6,7 @@
  * @license MIT
  */
 
-namespace Panel;
+namespace Flame\Diagnostics\ServicePanel;
 
 use Nette,
 	Nette\Diagnostics\Debugger;
