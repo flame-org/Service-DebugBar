@@ -77,7 +77,7 @@ class ServicePanel extends \Nette\Object implements \Nette\Diagnostics\IBarPanel
 	{
 		ob_start();
 		$list = $this->getList();
-		require_once __DIR__ . "/bar.service.panel.phtml";
+		require_once __DIR__ . "/templates/bar.service.panel.phtml";
 		return ob_get_clean();
 	}
 
